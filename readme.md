@@ -5,6 +5,7 @@
     <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 75%;">
 </div>
 以下为项目主要文件:
+<br/>
 - recognize.py
 - CGAN.py
 - mnist_classify.py
