@@ -4,6 +4,7 @@
 <div align="center">
     <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 75%;">
 </div>
+
 ### 详细说明
 - recognize.py 手写数字识别程序，运行该命令，能够识别并返回识别后的数字结果
 - CGAN.py 为训练图像，生成图像的代码。
