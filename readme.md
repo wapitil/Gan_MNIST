@@ -2,7 +2,7 @@
 本项目使用数字图片数据集 MNIST，训练一个将随机噪声和类别标签映射为数字图片的Conditional GAN模型，并生成指定数字序列。同时，本项目另外训练了一个识别生成图片并返回识别结果的模型，以完成项目需要。
 生成的图片如下所示:
 <div align="center">
-    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 75%;">
 </div>
 以下为项目主要文件:
 - recognize.py
