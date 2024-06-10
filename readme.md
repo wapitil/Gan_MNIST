@@ -2,7 +2,7 @@
 本项目使用数字图片数据集 MNIST，训练一个将随机噪声和类别标签映射为数字图片的Conditional GAN模型，并生成指定数字序列。同时，本项目另外训练了一个识别生成图片并返回识别结果的模型，以完成项目需要。
 生成的图片如下所示:
 <div align="center">
-    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 75%;">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 50%;">
 </div>
 
 ### 详细说明
@@ -18,10 +18,12 @@ cgan.train(dataloader)
 python ./CGAN --number 213123
 ```
 在终端输入上列命令，您将看到一个名为result.png。其中 213123 只是示例输入，您可以在这里输入任何您想要生成的数字。
-<br> </br>
-![img](https://github.com/wapitil/Gan_MNIST/blob/main/result.png)
+生成的图片如下所示:
+<div align="center">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/result.png" alt="Generated Image" style="width: 50%;">
+</div>
 
-- mnist_classify.py 使用下列命令运行该文件，您可以生成自己的数字分类模型。如果您不想进行训练，本项目在models 目录下提供了mnist_cnn.pt 以供使用。
+- mnist_classify.py 运行该文件，您可以生成自己的数字分类模型。如果您不想进行训练，本项目在models 目录下提供了mnist_cnn.pt 以供使用。
 
 
 
