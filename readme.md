@@ -15,7 +15,7 @@ cgan.train(dataloader)
 ```
 2. 如果您不想进行训练，本项目在models 目录下提供了 **generator_last.pkl** 文件。
 ```
-python ./CGAN --number 213123
+python ./CGAN.py --number 213123
 ```
 在终端输入上列命令，您将看到一个名为result.png。其中 213123 只是示例输入，您可以在这里输入任何您想要生成的数字。
 生成的图片如下所示:
