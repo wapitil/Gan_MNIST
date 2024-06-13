@@ -10,7 +10,7 @@
 本文同时提供了前端界面
 
 <div align="center">
-    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/examples/ui.png" alt="Generated Image" style="width: 50%;">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/examples/ui.png" alt="Generated Image" style="width: 70%;">
 </div>
 
 ### 详细说明
