@@ -4,12 +4,25 @@
 生成的图片如下所示:
 
 <div align="center">
-    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/docx_img/0_150.png" alt="Generated Image" style="width: 50%;">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/examples/0_150.png" alt="Generated Image" style="width: 50%;">
+</div>
+
+本文同时提供了前端界面
+
+<div align="center">
+    <img src="https://github.com/wapitil/Gan_MNIST/blob/main/examples/ui.png" alt="Generated Image" style="width: 50%;">
 </div>
 
 ### 详细说明
 
-- recognize.py 手写数字识别程序，运行该命令，能够识别并返回识别后的数字结果
+进入文件
+
+- ui.py 识别主程序，运行该命令，能够识别并返回识别后的数字结果。
+
+```Python
+python ./ui.py
+```
+
 - CGAN.py 为训练图像，生成图像的代码。
 
 1. 如果您想训练自己的模型，请将 CGAN.py 中下面两行代码解开注释，进行训练
@@ -33,3 +46,7 @@ python ./CGAN.py --number 213123
 </div>
 
 - mnist_classify.py 运行该文件，您可以生成自己的数字分类模型。如果您不想进行训练，本项目在 models 目录下提供了 mnist_cnn.pt 以供使用。
+
+```
+python ./ mnist_classify.py
+```
